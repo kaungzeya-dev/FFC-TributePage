@@ -29,6 +29,8 @@ h4 {
 }
 
 img {
+  display: block;
+  margin: auto;
   margin-top: 0;
   max-width: 100%;
   height: auto;
@@ -36,10 +38,15 @@ img {
   border-radius: 5px;
 }
 
+#img-caption {
+  font-style: italic;
+  padding: 20px;
+}
+
 #tribute-info {
   text-align: left;
   margin: auto;
-  max-width: 40%;
+  max-width: 550px;
   line-height: 1.5;
 }
 
@@ -57,4 +64,12 @@ footer {
   color: #fff;
   padding: 40px;
   font-size: 1.2rem;
+}
+
+a:visited {
+  color: rgb(62, 150, 177);
+}
+
+a:hover {
+  color: black;
 }
